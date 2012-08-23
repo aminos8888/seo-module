@@ -1,0 +1,458 @@
+{
+  "type": "module",
+  "name": "seo",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/modules\/Seo",
+  "repository": null,
+  "date": "Thu, 23 Aug 2012 03:43:56 +0000",
+  "title": "SEO",
+  "description": "SEO",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Marco Enrico Alviar"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 23 Aug 2012 03:43:56 +0000",
+    "title": "SEO",
+    "description": "SEO",
+    "developer": null,
+    "authors": [
+      "Marco Enrico Alviar"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Seo": {
+      "type": "directory",
+      "path": "application\/modules\/Seo",
+      "structure": [
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Pages.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 108,
+          "sha1": "37f92d3d57e61ec48bf1fea0a1bb5e789646bc04"
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/Page.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 68,
+          "sha1": "21cb34d8bdb802b1b1500be6612ea331bcbcb3cd"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 871,
+          "sha1": "90aae12d72048130c669c46b4fed140f6b8bb35d"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 157,
+          "sha1": "889595591d56acd3bb2e673954d47c91fe0be0a1"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 914,
+          "sha1": "f6e16ac34702644e0a1cc279715d93019b0b2c39"
+        },
+        {
+          "path": "Filter",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Filter\/UrlEncode.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 142,
+          "sha1": "1463389ef10c0fe30e622f66cfe901c7edf4d493"
+        },
+        {
+          "path": "Filter\/Tag.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 252,
+          "sha1": "7875e3b70c82623c463beca96bbc8f42fcfc70e8"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 634,
+          "sha1": "30558292d59ccf443d003a383949ef7b877c9422"
+        },
+        {
+          "path": "controllers\/AdminManageController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 3554,
+          "sha1": "fc3b5363f4c2bdb16a665811fbeaf95e9b134e89"
+        },
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 440,
+          "sha1": "be3c710de8f0b7afdf93f4e6200c0da4b29e2b29"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 144,
+          "sha1": "47bb36a5f03278d4b6ea5804e494c00ccb02e8e1"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 77,
+          "sha1": "c8690a0a5ab8033cd36789211bab6d421f4edb59"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "View",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper\/AltUrl.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 522,
+          "sha1": "62f7addf95c7d448873f57194f98208abd2e0928"
+        },
+        {
+          "path": "View\/Helper\/HeadTitle.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 636,
+          "sha1": "8cff6d478b00526dcf904019ce652074319ad5e3"
+        },
+        {
+          "path": "View\/Helper\/HeadMeta.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 773,
+          "sha1": "740c63ec26bf8e3f91f9bcc9f79118e56592ec8c"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2266,
+          "sha1": "2236becda31ff0913d7bf374412265c7e4d8d821"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Manage\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 1570,
+          "sha1": "f550c7df286004765d5e7344823a83e345fb9a29"
+        },
+        {
+          "path": "Form\/Admin\/Manage\/Filter.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 2027,
+          "sha1": "a43dd7c5c2e1da499ee5d17832d013f754c9829c"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views\/scripts\/admin-manage",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 41,
+          "sha1": "cf3414c6d70d69a556e27c55e861dc6d1df6d66e"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 4434,
+          "sha1": "965c3973d54b8d252d9f4c02254e9ecd6fe84594"
+        },
+        {
+          "path": "Controller",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Controller\/Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Controller\/Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 998,
+          "sha1": "cd519e8a3bbb9d0a92b297765fa28f5e7bc386c5"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 306,
+          "sha1": "3b03b780239c4b6dfdc01ab84de755953ff4bfa1"
+        }
+      ]
+    },
+    "application\/languages\/en\/seo.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/seo.csv",
+      "structure": {
+        "path": "seo.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}
